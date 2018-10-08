@@ -1,5 +1,5 @@
 {
-	"omnisversion": "8.1.1",
+	"omnisversion": "8.1.6",
 	"includes": [
 		"OMNISTAP",
 		"OMNISCLI"
@@ -37,7 +37,7 @@
 		"keyevents": false,
 		"mouseevents": false,
 		"reportcalculationerrors": true,
-		"reportnotationerrors": true,
+		"reportnotationerrors": false,
 		"rmouseevents": false,
 		"screencoordinates": false,
 		"sensitivefieldnames": false,
