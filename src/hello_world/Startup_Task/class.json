@@ -1,6 +1,6 @@
 {
 	"classtype": "kTask",
-	"internalversion": 46,
+	"internalversion": 48,
 	"superclass": "omnistap.kgTAPTask",
 	"tvardefs": [
 
@@ -27,7 +27,7 @@
 		"editordata": "",
 		"external": false,
 		"issupercomponent": false,
-		"moddate": "2017-10-18 10:28:45",
+		"moddate": "2018-10-11 11:10:30",
 		"showascheckedout": false,
 		"userinfo": "",
 		"version": ""

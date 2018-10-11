@@ -1,13 +1,26 @@
 [
 	{
-		"name": "$getMessage",
-		"ident": 0,
+		"name": "$morningGreeting",
+		"ident": 3,
 		"order": 1,
 		"pvardefs": [
 
 		],
 		"lvardefs": [
-
+			{
+				"name": "lcEnglish",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			},
+			{
+				"name": "lcFrench",
+				"order": 2,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000
+			}
 		]
 	},
 	{
@@ -22,9 +35,27 @@
 		]
 	},
 	{
+		"name": "$_getMessage",
+		"ident": 0,
+		"order": 3,
+		"pvardefs": [
+			{
+				"name": "pcLanguage",
+				"order": 1,
+				"type": "kCharacter",
+				"subtype": "kSimplechar",
+				"sublen": 100000000,
+				"param": 1
+			}
+		],
+		"lvardefs": [
+
+		]
+	},
+	{
 		"name": "$_getTime",
 		"ident": 2,
-		"order": 3,
+		"order": 4,
 		"pvardefs": [
 
 		],
